@@ -1,7 +1,7 @@
 <div class="dm_behavior_draggable_helper">
     <div class="dm_behavior_draggable" id="<?php echo $id; ?>">
         <div class="dm_behavior_draggable_icon">
-            <img src="<?php echo $icon; ?>" />
+            <img src="<?php echo public_path($icon); ?>" />
         </div>
         <div class="dm_behavior_draggable_title">
             <?php echo $name; ?>

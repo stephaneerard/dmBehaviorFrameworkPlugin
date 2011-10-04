@@ -33,7 +33,7 @@ class dmBehaviorFrameworkFrontToolBarView extends dmFrontToolBarView {
         <ul class="ui-helper-reset level0">
             <li class="first last ui-state-default">
                 <a id="dm_add_behavior" class="tipable ui-corner-bottom dm_add_behavior" title="'.$this->i18n->__('Add behavior to widget').'">
-                    <img src="/dmBehaviorFrameworkPlugin/images/gear.png" />
+                    <img src="' . public_path('/dmBehaviorFrameworkPlugin/images/gear.png') . '" />
                 </a>
             </li>
         </ul>
@@ -45,5 +45,3 @@ class dmBehaviorFrameworkFrontToolBarView extends dmFrontToolBarView {
     
     
 }
-
-?>
