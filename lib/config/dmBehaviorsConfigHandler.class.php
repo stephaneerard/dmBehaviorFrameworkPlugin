@@ -11,6 +11,7 @@ class dmBehaviorsConfigHandler extends sfYamlConfigHandler {
         $config = array();
         foreach ($configFiles as $file) {
             $tmp = $this->parseYaml($file);
+            if(!isset($tmp['dmBehaviors'])) continue;
             foreach($tmp['dmBehaviors'] as $key=>$value) {
                 $sectionKey = dmString::slugify($value['section']);
                 if (!isset($config[$sectionKey])) {
