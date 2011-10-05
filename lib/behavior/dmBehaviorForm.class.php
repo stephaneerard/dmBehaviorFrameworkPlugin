@@ -9,4 +9,3 @@ class dmBehaviorForm extends dmForm {
     
 }
 
-?>

@@ -31,4 +31,3 @@ class dmBehaviorableForm extends dmWidgetPluginForm {
     
 }
 
-?>

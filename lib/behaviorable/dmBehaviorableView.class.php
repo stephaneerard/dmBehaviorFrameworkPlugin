@@ -9,4 +9,3 @@ class dmBehaviorableView extends dmWidgetPluginView {
     
 }
 
-?>

@@ -16,6 +16,10 @@ class dmBehaviorsManager {
         include sfContext::getInstance()->getConfigCache()->checkConfig('config/dm/behaviors.yml');
     }
 
+    /**
+     * 
+     * @return dmBehaviorsManager
+     */
     public static function getInstance() {
         if (!is_null(self::$instance))
             return self::$instance;
@@ -106,5 +110,3 @@ class dmBehaviorsManager {
         return $css;
     }
 }
-
-?>
